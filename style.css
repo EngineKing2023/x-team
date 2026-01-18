@@ -1,0 +1,186 @@
+* { 
+            margin: 0; 
+            padding: 0; 
+            box-sizing: border-box; 
+        }
+        
+        body { 
+            min-height: 100vh;
+            transition: background 0.3s; 
+            /* Create a pattern when image is not visible */
+            background-image: 
+                radial-gradient(circle at 25% 25%, rgba(255,255,255,0.1) 1px, transparent 1px),
+                radial-gradient(circle at 75% 75%, rgba(255,255,255,0.1) 1px, transparent 1px);
+            background-size: 50px 50px;
+        }
+        
+        /* Fixed responsive image */
+      
+       p{
+        color: beige;
+       }
+        
+       
+        /* Color breakpoints */
+        body { background: #000000; }
+        @media (min-width: 576px) { body { background: #4ECDC4; } }
+        @media (min-width: 768px) { body { background: #FFD166; } }
+        @media (min-width: 992px) { body { background: #06D6A0; } }
+        @media (min-width: 1200px) { body { background: #118AB2; } }
+        @media (min-width: 1400px) { body { background: #9B5DE5; } }
+        
+        /* For very small screens, adjust image position */
+        @media (max-width: 480px) {
+           img {
+            
+            width: 30vw;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           }
+         
+           .img2{
+              width: 25vw;
+              padding: 2vw 5vw 2vw 5vw ;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           }
+
+           div{
+            margin: 0%;
+            padding: 0%;
+            display: flex ;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+           }
+
+           .div1 {
+            margin: 0%;
+            padding: 0%;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            
+
+           }
+           .div2 {
+            width: 50% ;
+           }
+           p{
+            display: flex;
+            padding: 3vw;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+           }
+           .p2{
+            display: flex;
+            text-align: start;
+            justify-content: center;
+            align-items: center;
+            width: 65vw;
+            padding: 3vw 5vw 3vw 5vw;
+        }
+        a{
+  display: flex;
+  position: static;
+  
+  -webkit-tap-highlight-color: transparent;
+}
+ .inlin{
+        display: static;
+        
+  
+     }
+.icons{
+  
+  width: 12vw;
+  height: 12vw;
+  z-index: 2;
+}
+.icons2{
+    width: 20vw;
+    height: 20vw;
+    z-index: 2;
+}
+.icon1{
+  position: absolute;
+  left: 3vw; 
+  top: 85vw;
+}
+.icon11{
+  display: flex;
+  position: absolute;
+  
+  bottom: 2vw;
+}
+.contact2{
+            display: flex;
+            flex-direction: column;
+            
+            
+            
+        }
+        .contact{
+           display: flex;
+           flex-direction: row;
+           justify-content: space-evenly;
+           
+           bottom: 0px;
+          
+          
+          width: 100vw;
+           
+           
+            
+           
+        
+        }
+
+        
+
+
+
+        .klici{
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  bottom: 0px;
+  
+}
+.btt{
+        
+          -webkit-user-select: none; /* Safari */        
+          -moz-user-select: none; /* Firefox */
+          -ms-user-select: none; /* IE10+/Edge */
+          user-select: none; /* Standard */
+            
+       }  
+        .bton{
+  
+            font-size:4.5vw;
+            
+            padding: 3px;
+            margin-top: 1vw;
+            margin-bottom: 1vw;
+            
+            font-weight: bold;
+            cursor: vertical-text;
+            font-family: sans-serif, cursive;
+            text-decoration: none;
+            color: hsl(219, 100%, 50%);
+            border: hsl(69, 100%, 50%) 3px solid;
+            background-color:hsl(107, 100%, 50%);
+            border-radius: 0.25em;
+            text-shadow: 0 0 0 hsla(226, 100%, 50%, 0.3), 0 0 0 currentColor;
+            box-shadow: inset 0 0 0em 0 hsl(69, 100%, 50%), 0 0 0 0 hsl(69, 100%, 50%);
+            transition:all 0.5s;
+       }
+
+        }

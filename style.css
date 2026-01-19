@@ -23,7 +23,44 @@
        
         /* Color breakpoints */
         body { background: #000000; }
-        @media (min-width: 576px) { body { background: #4ECDC4; } }
+        @media (min-width: 480px) { 
+          body { 
+            display: flex;
+            justify-content: center;
+          align-items: center;
+          text-align: center;
+            background: #4ECDC4; 
+          }
+          div{
+            display: none;
+          }
+          div:last-of-type {
+    /* Styles for the last div in its parent container */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+         img{
+          
+          
+          
+          width: 10vw;
+          
+         }
+          p{
+            display: none;
+          }
+        h3{
+          
+          
+          color: #000000;
+        }
+        
+        
+        
+        }
         @media (min-width: 768px) { body { background: #FFD166; } }
         @media (min-width: 992px) { body { background: #06D6A0; } }
         @media (min-width: 1200px) { body { background: #118AB2; } }
@@ -31,6 +68,11 @@
         
         /* For very small screens, adjust image position */
         @media (max-width: 480px) {
+          h3{
+            display: none;
+          }
+         
+           
            img {
             
             width: 30vw;
@@ -151,7 +193,7 @@
         height: 6vw;
   color: whitesmoke;
 }
-.footer p {.footer p {
+.footer p {
   display: flex;
   justify-content: center;
   align-items: end;
@@ -161,7 +203,7 @@
   padding: 0px;
 
 }
-}
+
 
 
 

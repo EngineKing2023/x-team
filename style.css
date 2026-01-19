@@ -122,18 +122,13 @@
   display: flex;
   flex-direction: row;
 }
-.contact2{
-            
-            
-            
-            
-        }
+
         .contact{
            display: flex;
            flex-direction: row;
            justify-content: space-evenly;
            
-           bottom: 0px;
+           bottom: 10vw;
           
           
           width: 100vw;
@@ -143,8 +138,30 @@
            
         
         }
+.footer{
+  display: flex;
+  position: static;
 
-        
+  justify-content: center;
+
+  font-size: 3vw;
+  
+ bottom: 0px;
+ width: 100%;
+        height: 6vw;
+  color: whitesmoke;
+}
+.footer p {.footer p {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+   text-align: center;
+  font-size: 3vw;
+  margin: 0px;
+  padding: 0px;
+
+}
+}
 
 
 
